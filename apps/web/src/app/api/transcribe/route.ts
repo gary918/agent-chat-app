@@ -24,6 +24,7 @@ export async function POST(request: NextRequest) {
       encoding: 'WEBM_OPUS' as const,
       sampleRateHertz: 48000,
       languageCode: 'en-US',
+      alternativeLanguageCodes: ['es-ES', 'fr-FR', 'cmn-Hans-CN'],
     };
 
     const requestPayload = {
