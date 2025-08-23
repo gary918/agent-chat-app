@@ -1,6 +1,7 @@
 # Agent Chat UI
-
 Agent Chat UI is a Next.js application which enables chatting with any LangGraph server with a `messages` key through a chat interface.
+
+> **FOR INTERNAL USERS:** You can run this app by ```pnpm dev``` without configuring ```.env``` !
 
 > [!NOTE]
 > 🎥 Watch the video setup guide [here](https://youtu.be/lInrwVnZ83o).
