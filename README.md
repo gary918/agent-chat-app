@@ -1,7 +1,11 @@
 # Agent Chat UI
-Agent Chat UI is a Next.js application which enables chatting with any LangGraph server with a `messages` key through a chat interface.
+[!NOTE]: 
+* This repo's been changed based on the [original repo](https://github.com/langchain-ai/agent-chat-ui), by adding voice input and customizing UI.
+* You can run this app by ```pnpm dev``` without configuring ```.env``` !
+* In order to use voice input, login your Google Cloud account by running ```gcloud auth application-default login```
 
-> **FOR INTERNAL USERS:** You can run this app by ```pnpm dev``` without configuring ```.env``` !
+
+Agent Chat UI is a Next.js application which enables chatting with any LangGraph server with a `messages` key through a chat interface.
 
 > [!NOTE]
 > 🎥 Watch the video setup guide [here](https://youtu.be/lInrwVnZ83o).
@@ -30,6 +34,9 @@ Install dependencies:
 ```bash
 pnpm install
 ```
+In order to use voice input, login your Google Cloud account by running: 
+
+```gcloud auth application-default login```
 
 Run the app:
 
