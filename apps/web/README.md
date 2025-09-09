@@ -10,7 +10,7 @@ Agent Chat UI is a Vite + React application which enables chatting with any Lang
 First, clone the repository:
 
 ```bash
-git clone https://github.com/langchain-ai/agent-chat-ui.git
+git clone https://github.com/gary918/agent-chat-app.git
 
 cd agent-chat-ui
 ```
